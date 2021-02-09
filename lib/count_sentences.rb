@@ -11,6 +11,7 @@ class String
   end
 
   def exclamation?
+    string..end_with?("!")
 
   end
 
